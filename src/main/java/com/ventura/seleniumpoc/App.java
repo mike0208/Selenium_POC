@@ -17,7 +17,7 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Devops-intell-self-paced\\seleniumpoc\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
 		ChromeOptions  options = new ChromeOptions();
 		options.addArguments("headless");
 		options.addArguments("window-size=1920,1080");
